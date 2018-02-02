@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How do C and C++ unit test frameworks find all the test functions in a program?"
-date:   2018-02-01 20:30:00 +0000
+date:   2018-0200 20:30:00 +0000
 ---
 I recently started a new programming job, and it's been a fascinating and exhausting experience diving into a huge, old codebase written in C. Some of the original authors are long-gone from the company, but I still feel like I'm getting to know them and their personalities by the code they left behind.
 
