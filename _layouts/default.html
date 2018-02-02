@@ -18,9 +18,7 @@
         {{ content }}
       </section>
       <footer>
-        <ul>
-          {% if site.twitter_username%}<li><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><img class="svg-icon" src="/assets/twit.svg"><span class="username">@{{ site.twitter_username| escape }}</span></a></li>{% endif %}
-        </ul>
+        <p><a href="{{ "/" | relative_url }}">nckrlf.com</a> / <a href="https://www.twitter.com/nckrlf"><img class="svg-icon" src="/assets/twit.svg">@nckrlf</a></p>
       </footer>
     </div>
   </body>
