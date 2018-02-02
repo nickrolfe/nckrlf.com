@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How do C and C++ unit test frameworks find all the test functions in a program?"
-date:   2018-0200 20:30:00 +0000
+date:   2018-02-02 20:30:00 +0000
 ---
 I recently started a new programming job, and it's been a fascinating and exhausting experience diving into a huge, old codebase written in C. Some of the original authors are long-gone from the company, but I still feel like I'm getting to know them and their personalities by the code they left behind.
 
@@ -331,7 +331,7 @@ Here's what I learned:
 * Compilers let us control which section our `TestInfo` structures get placed in with some special attributes.
 * Linkers will find and group together all variables that were placed in a particular section.
 * Linkers can also provide us with symbols to mark the start and end of that section, so we know exactly where it put all the `TestInfo` structures.
-* Platform-specific and other gory implementation details can be hidden away with some carefully-crafted macros. Have a look at an example implementation including macros [on GitHub](https://gist.github.com/nickrolfe/ffc9b1c02381b9dc17c975b98db42172) to see what I mean. There's some really hairy code in there --- but the test functions themselves are squeaky clean.
+* Platform-specific and other gory implementation details can be hidden away with some carefully-crafted macros. Have a look at an example implementation including macros [on Github](https://gist.github.com/nickrolfe/ffc9b1c02381b9dc17c975b98db42172) to see what I mean. There's some really hairy code in there --- but the test functions themselves are squeaky clean.
 
 Thanks for reading!
 
