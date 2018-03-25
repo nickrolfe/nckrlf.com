@@ -148,7 +148,7 @@ Nice! What's even cooler is that, since the section name `my_section` is also a 
 
 ```c
 extern int __start_my_section;
-extern int __stop_section;
+extern int __stop_my_section;
 ```
 
 Now we can take the address of these symbols: `&__start_my_section` will be the address of the first byte of `my_section`, and `&__stop_my_section` points to one byte after the end of `my_section`.
