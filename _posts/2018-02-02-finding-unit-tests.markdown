@@ -331,7 +331,7 @@ Here's what I learned:
 * Compilers let us control which section our `TestInfo` structures get placed in with some special attributes.
 * Linkers will find and group together all variables that were placed in a particular section.
 * Linkers can also provide us with symbols to mark the start and end of that section, so we know exactly where it put all the `TestInfo` structures.
-* Platform-specific and other gory implementation details can be hidden away with some carefully-crafted macros. Have a look at an example implementation including macros [on Github](https://gist.github.com/nickrolfe/ffc9b1c02381b9dc17c975b98db42172) to see what I mean. There's some really hairy code in there --- but the test functions themselves are squeaky clean.
+* Platform-specific and other gory implementation details can be hidden away with some carefully-crafted macros. Have a look at an example implementation including macros [on GitHub](https://gist.github.com/nickrolfe/ffc9b1c02381b9dc17c975b98db42172) to see what I mean. There's some really hairy code in there --- but the test functions themselves are squeaky clean.
 
 Thanks for reading!
 
